@@ -1,0 +1,57 @@
+
+
+.body{
+    font-family:'Poppins', sans-serif;
+}
+
+
+.nav-link{
+    font-weight: 500;
+    font-size: 0.875rem;
+}
+
+.nav-link.active {
+    color: rgb(31, 41, 55) !important;
+}
+
+.main-header{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(31, 41, 55);
+}
+
+@media (min-width: 576px) {
+    .main-header{
+        font-size: 4rem;
+    }
+}
+
+.text-content{
+    letter-spacing: 0.025rem;
+    font-size: 0.875rem;
+    color: rgb(107, 114, 128);
+}
+
+.my-photo{
+    object-fit: cover;
+    width: 100%;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+}
+
+.section-header{
+    font-weight: bold;
+    color:rgb(31, 41, 55) ;
+}
+
+.card{
+    border: none;
+    box-shadow: 0 1rem 3rem rgba(145, 145, 145, 0.175) !important;
+}
+
+section{
+    scroll-margin-top: 4rem;
+}
